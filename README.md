@@ -11,18 +11,22 @@ This is a simple **Snake-Water-Gun** game built in **Python**. The game allows a
 - Stores **high scores persistently** in a separate file.
 - High score is maintained across sessions until manually reset.
 - Implemented entirely in Python with simple **file handling**.
+- Print the necessary instructions player require to know at each step.
 
 ---
 
 ## How to Play
 1. Run the Python file:  
-```bash
-python snake_water_gun.py
+main_code_file.py
+You will be provided with the necessary instructions you need to know.
+
 Enter your choice: Snake, Water, or Gun.
 
 The computer will make its move randomly.
 
 The winner of each round is displayed, and scores are updated.
+
+Computer will ask if you want to play again.
 
 High scores are saved in a file (high_score.txt) until you reset them.
 
