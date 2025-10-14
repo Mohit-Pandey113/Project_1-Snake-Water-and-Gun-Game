@@ -22,7 +22,7 @@ main_code_file.py
 
 You will be provided with the necessary instructions you need to know.
 
-Enter your choice: Snake, Water, or Gun.
+Enter your choice: s for Snake, w for Water, or g for Gun.
 
 The computer will make its move randomly.
 
@@ -31,6 +31,11 @@ The winner of each round is displayed, and scores are updated.
 Computer will ask if you want to play again.
 
 High scores are saved in a file (high_score.txt) until you reset them.
+
+Winning Conditions:
+For snake and water, snake will win
+For water and gun, water will win
+For gun and snake, gun will win
 
 Key Learning
 While developing this project, I faced a challenge with storing and displaying the high score. Initially, I could not find a solution that fit my program structure. After experimentation and problem-solving, I implemented a custom solution using file handling, which taught me an important lesson:
