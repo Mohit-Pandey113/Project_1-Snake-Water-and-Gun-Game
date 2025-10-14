@@ -21,6 +21,13 @@ Run the main game file:
 
 python main_code_file.py
 
+### Winning Conditions:
+
+Snake v/s Water : Snake will win
+
+Water v/s Gun : Gun will win
+
+Gun v/s Snake : Gun will win
 
 Play and enjoy! Your high score will be saved automatically.
 
