@@ -18,6 +18,8 @@ This is a simple **Snake-Water-Gun** game built in **Python**. The game allows a
 ## How to Play
 1. Run the Python file:  
 main_code_file.py
+
+
 You will be provided with the necessary instructions you need to know.
 
 Enter your choice: Snake, Water, or Gun.
