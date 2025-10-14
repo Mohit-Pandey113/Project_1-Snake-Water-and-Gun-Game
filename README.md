@@ -1,50 +1,56 @@
 # Snake-Water-Gun Game
 
-## Overview
-This is a simple **Snake-Water-Gun** game built in **Python**. The game allows a single player to play against the computer, keeping track of wins, losses, and draws. A key feature of this project is a **persistent high score system**, which stores the player’s highest score in a separate file until the player chooses to reset it.
+## Overview:
+This is a simple Python game based on the classic Snake-Water-Gun game. It includes a persistent high score system, so your high score is saved even after closing the game—just like in the games I’ve played growing up.
 
----
+## Features:
 
-## Features
-- Single-player gameplay against the computer.
-- Print everytime if you win, lose, or it was a draw.
-- Stores **high scores persistently** in a separate file.
-- High score is maintained across sessions until manually reset.
-- Implemented entirely in Python with simple **file handling**.
-- Print the necessary instructions player require to know at each step.
+Play the Snake-Water-Gun game against the computer.
 
----
+Persistent high score system using a text file (Hi_score.txt).
 
-## How to Play
-1. Run the Python file:  
-main_code_file.py
+Simple and interactive command-line interface.
+
+## How to Run:
+
+Make sure you have Python installed (Python 3.x recommended).
+
+Download or clone this repository.
+
+Run the main game file:
+
+python main_code_file.py
 
 
-You will be provided with the necessary instructions you need to know.
+Play and enjoy! Your high score will be saved automatically.
 
-Enter your choice: s for Snake, w for Water, or g for Gun.
+## Demo Video:
+Watch the game in action: [Insert YouTube or Google Drive link here]
 
-The computer will make its move randomly.
+## Files:
 
-The winner of each round is displayed, and scores are updated.
+main_code_file.py → Core game logic.
 
-Computer will ask if you want to play again.
+Hi_score.txt → Stores the persistent high score.
 
-High scores are saved in a file (high_score.txt) until you reset them.
+README.md → Project overview and instructions.
 
-Winning Conditions:
-For snake and water, snake will win
-For water and gun, water will win
-For gun and snake, gun will win
+## Future Improvements / Notes:
 
-Key Learning
+Add graphics or GUI to make the game more interactive.
+
+Add sound effects for a richer experience.
+
+Expand to more advanced game mechanics if desired.
+
+## Key Learning:
 While developing this project, I faced a challenge with storing and displaying the high score. Initially, I could not find a solution that fit my program structure. After experimentation and problem-solving, I implemented a custom solution using file handling, which taught me an important lesson:
 
 While we can learn from others, we must develop our own solutions to problems to ensure they fit our specific context.
 
 This project strengthened my problem-solving skills, persistence, and understanding of Python file operations.
 
-Technologies Used
+## Technologies Used:
 Python 3.x
 
 Basic file handling (read/write operations)
