@@ -17,6 +17,8 @@ Make sure you have Python installed (Python 3.x recommended).
 
 Download or clone this repository.
 
+Open the complete folder in VS Code.
+
 Run the main game file:
 
 python main_code_file.py
