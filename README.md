@@ -33,9 +33,6 @@ Gun v/s Snake : Gun will win
 
 Play and enjoy! Your high score will be saved automatically.
 
-## Demo Video:
-Watch the game in action: [Insert YouTube or Google Drive link here]
-
 ## Files:
 
 main_code_file.py → Core game logic.
